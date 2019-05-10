@@ -15,14 +15,14 @@ public class ScomQAChallenge1 {
 
         while( count < 10 ) {
 
-           if (x < 21) {
+           if (x>1 && x < 21) {
                count++;
                System.out.print(x + " x  " + count + " = " + x * count);
 
                System.out.print("\n");
            }
            else{
-               System.out.print("The number needs to be between 1 and 20");
+               System.out.print("The number needs to be between 2 and 20");
                System.exit(0);
            }
         }
