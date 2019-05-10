@@ -1,0 +1,7 @@
+This is a QA test for Java Developer as required by the Questions given.
+
+In it, there are two java files:
+
+1. Challenge one prints the details of a given number by multiplying it with a count parameter to 10
+
+2. Challenge 2 is a palindrome for prime numbers
