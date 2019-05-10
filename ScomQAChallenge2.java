@@ -21,7 +21,7 @@ public class ScomQAChallenge2 {
 
             //validate that the entry qualifies to be a palindrome by at least being two digit number
 
-            if (b > 1) {
+            if (b > 1 && base != start) {
                 if (isPrime(start) && isPalin(start)) {
                     System.out.print("The nearest Prime Number Palindrome  to "+base+" is "+start + ".");
                     counter++;

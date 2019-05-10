@@ -12,11 +12,14 @@ public class ScomQAChallenge1 {
         int x  = myObj.nextInt();
         int count = 0;
 
+       /*System.out.print("Outputs:-");
+        System.out.print("\n");*/
 
         while( count < 10 ) {
 
-           if (x>1 && x < 21) {
+           if (x>2 && x < 20) {
                count++;
+
                System.out.print(x + " x  " + count + " = " + x * count);
 
                System.out.print("\n");
